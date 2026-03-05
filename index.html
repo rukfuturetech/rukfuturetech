@@ -15,6 +15,23 @@
     
     <style>
         /* --- CSS VARIABLES & RESET --- */
+        .whatsapp-float {
+position: fixed;
+bottom: 25px;
+right: 25px;
+background-color: #25D366;
+color: white;
+font-size: 28px;
+padding: 15px;
+border-radius: 50%;
+text-decoration: none;
+box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+z-index: 1000;
+}
+
+.whatsapp-float:hover {
+background-color: #1ebe5d;
+}
         :root {
             --primary-gold: #D4AF37;
             --metallic-gold-gradient: linear-gradient(135deg, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
@@ -522,10 +539,13 @@
 <a href="tel:+919740119051">Call +91 9740119051</a>
 
 <a href="tel:+91&nbsp;7892261794">Call +91 7892261794</a>
-
+<a href="https://wa.me/919740119051" class="whatsapp-float" target="_blank">
+💬
+</a>
 </div>
 
     
+
 
 
 
